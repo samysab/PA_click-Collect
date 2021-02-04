@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap);
-
-* {
+@import url(https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap);* {
   box-sizing: border-box;
 }
 
@@ -43,12 +41,12 @@
 
 @media only screen and (min-width: 576px) {
   .col-sm-1 {
-    flex-basis: 8.3333333333%;
+    flex-basis: 8.33333333%;
     padding: 10px 10px;
   }
 
   .col-sm-2 {
-    flex-basis: 16.6666666667%;
+    flex-basis: 16.66666667%;
     padding: 10px 10px;
   }
 
@@ -58,12 +56,12 @@
   }
 
   .col-sm-4 {
-    flex-basis: 33.3333333333%;
+    flex-basis: 33.33333333%;
     padding: 10px 10px;
   }
 
   .col-sm-5 {
-    flex-basis: 41.6666666667%;
+    flex-basis: 41.66666667%;
     padding: 10px 10px;
   }
 
@@ -73,12 +71,12 @@
   }
 
   .col-sm-7 {
-    flex-basis: 58.3333333333%;
+    flex-basis: 58.33333333%;
     padding: 10px 10px;
   }
 
   .col-sm-8 {
-    flex-basis: 66.6666666667%;
+    flex-basis: 66.66666667%;
     padding: 10px 10px;
   }
 
@@ -88,12 +86,12 @@
   }
 
   .col-sm-10 {
-    flex-basis: 83.3333333333%;
+    flex-basis: 83.33333333%;
     padding: 10px 10px;
   }
 
   .col-sm-11 {
-    flex-basis: 91.6666666667%;
+    flex-basis: 91.66666667%;
     padding: 10px 10px;
   }
 
@@ -105,12 +103,12 @@
 
 @media only screen and (min-width: 768px) {
   .col-md-1 {
-    flex-basis: 8.3333333333%;
+    flex-basis: 8.33333333%;
     padding: 10px 10px;
   }
 
   .col-md-2 {
-    flex-basis: 16.6666666667%;
+    flex-basis: 16.66666667%;
     padding: 10px 10px;
   }
 
@@ -120,12 +118,12 @@
   }
 
   .col-md-4 {
-    flex-basis: 33.3333333333%;
+    flex-basis: 33.33333333%;
     padding: 10px 10px;
   }
 
   .col-md-5 {
-    flex-basis: 41.6666666667%;
+    flex-basis: 41.66666667%;
     padding: 10px 10px;
   }
 
@@ -135,12 +133,12 @@
   }
 
   .col-md-7 {
-    flex-basis: 58.3333333333%;
+    flex-basis: 58.33333333%;
     padding: 10px 10px;
   }
 
   .col-md-8 {
-    flex-basis: 66.6666666667%;
+    flex-basis: 66.66666667%;
     padding: 10px 10px;
   }
 
@@ -150,12 +148,12 @@
   }
 
   .col-md-10 {
-    flex-basis: 83.3333333333%;
+    flex-basis: 83.33333333%;
     padding: 10px 10px;
   }
 
   .col-md-11 {
-    flex-basis: 91.6666666667%;
+    flex-basis: 91.66666667%;
     padding: 10px 10px;
   }
 
@@ -167,12 +165,12 @@
 
 @media only screen and (min-width: 992px) {
   .col-lg-1 {
-    flex-basis: 8.3333333333%;
+    flex-basis: 8.33333333%;
     padding: 10px 10px;
   }
 
   .col-lg-2 {
-    flex-basis: 16.6666666667%;
+    flex-basis: 16.66666667%;
     padding: 10px 10px;
   }
 
@@ -182,12 +180,12 @@
   }
 
   .col-lg-4 {
-    flex-basis: 33.3333333333%;
+    flex-basis: 33.33333333%;
     padding: 10px 10px;
   }
 
   .col-lg-5 {
-    flex-basis: 41.6666666667%;
+    flex-basis: 41.66666667%;
     padding: 10px 10px;
   }
 
@@ -197,12 +195,12 @@
   }
 
   .col-lg-7 {
-    flex-basis: 58.3333333333%;
+    flex-basis: 58.33333333%;
     padding: 10px 10px;
   }
 
   .col-lg-8 {
-    flex-basis: 66.6666666667%;
+    flex-basis: 66.66666667%;
     padding: 10px 10px;
   }
 
@@ -212,12 +210,12 @@
   }
 
   .col-lg-10 {
-    flex-basis: 83.3333333333%;
+    flex-basis: 83.33333333%;
     padding: 10px 10px;
   }
 
   .col-lg-11 {
-    flex-basis: 91.6666666667%;
+    flex-basis: 91.66666667%;
     padding: 10px 10px;
   }
 
@@ -470,5 +468,28 @@ p {
   transform: translateY(-50%);
   right: 10px;
   cursor: pointer;
+}
+
+.input {
+  background: #FFF;
+  border: 1px solid #CFD8F4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 290px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.label {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 27px;
+  padding-right: 1rem;
+  color: #000000;
 }
 
