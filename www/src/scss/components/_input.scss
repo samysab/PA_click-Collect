@@ -4,19 +4,23 @@
    box-sizing: border-box;
    border-radius: 5px;
    width: 290px;
-   padding: .375rem .75rem;
-   font-size: 1rem;
-   font-weight: 400;
-   line-height: 1.5;
    display: inline-block;
+  font-family: $font1;
+  height: rem(35);
+
+  padding: 1em;
+  &--textarea{
+    height: 133.76px;
+  }
  }
 
 .label{
   font-family: $font2;
   font-style: normal;
   font-weight: bold;
-  font-size: rem(20);
+  font-size: rem(16);
   line-height: 27px;
   padding-right: 1rem;
   color: $black;
+  width: 145px;
 }

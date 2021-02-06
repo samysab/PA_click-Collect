@@ -1,0 +1,16 @@
+.form{
+  flex: 1 0 120px;
+  max-width: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form_align {
+  display: flex;
+  padding-bottom: rem(20);
+
+  &--top{
+    display: inline-block;
+  }
+}
