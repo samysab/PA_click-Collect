@@ -487,12 +487,12 @@ p {
   width: 290px;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
-  height: 2.1875rem;
-  padding: 1em;
+  padding: 0.5em 0.7em;
 }
 
 .input--textarea {
-  height: 133.76px;
+  height: 8rem;
+  resize: none;
 }
 
 .label {

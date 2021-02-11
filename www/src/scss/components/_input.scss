@@ -5,12 +5,12 @@
    border-radius: 5px;
    width: 290px;
    display: inline-block;
-  font-family: $font1;
-  height: rem(35);
+   font-family: $font1;
+  padding: 0.5em 0.7em;
 
-  padding: 1em;
   &--textarea{
-    height: 133.76px;
+    height: rem(128);
+    resize: none;
   }
  }
 
