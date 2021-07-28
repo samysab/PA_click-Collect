@@ -12,7 +12,6 @@
         <?php if(isset($success)):?>
             <div class="alert alert--green"><?= $success?></div>
         <?php endif;?>
-
         <h1>Créer un rôle</h1>
     </div>
 </section>
